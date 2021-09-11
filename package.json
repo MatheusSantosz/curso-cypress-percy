@@ -1,0 +1,21 @@
+{
+  "name": "curso-cypress-percy",
+  "version": "1.0.0",
+  "description": "Repositório do curso básico de testes de regressão visual com Cypress e Percy da [Escola Talking About Testing]",
+  "main": "index.js",
+  "scripts": {
+    "test": "percy exec -- cypress run"
+  },
+  "keywords": [
+    "cypress",
+    "test",
+    "automation",
+    "percy"
+  ],
+  "author": "Matheus Dos Santos Barbosa <matheus.santos.ciencia@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@percy/cli": "*",
+    "@percy/cypress": "^3.1.1"
+  }
+}
