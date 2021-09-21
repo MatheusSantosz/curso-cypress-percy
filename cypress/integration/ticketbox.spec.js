@@ -5,7 +5,6 @@ describe('TicketBox', () => {
 
   it('check for the inicial state', () => {
 
-    cy.wait(2000);
     cy.percySnapshot();
 
     
@@ -32,10 +31,6 @@ it('updates agreement base on full name, tickets quantity, and type', () => {
 
 
 });
-
-
-
-
 
 const successfulFormSubmission = 'Shows a success message after form submission'
   it(successfulFormSubmission, () => {
